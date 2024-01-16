@@ -12,6 +12,7 @@ class AppPages {
     GetPage(
       name: Routes.HOME,
       page: () => Home(),
+      // page: () => ResponsiveView(),
     ),
   ];
 }
