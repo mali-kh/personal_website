@@ -36,119 +36,125 @@ class Home extends GetResponsiveView<HomeController> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
-              child: Column(
-                // mainAxisAlignment: MainAxisAlignment.spaceAround,
-                // crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    // width: double.infinity,
-                    // height:  (screen.width / 6),
-                    margin: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
-                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
-                    decoration: BoxDecoration(
-                      color: Theme.of(Get.context!).colorScheme.secondaryContainer,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(
-                        color: Theme.of(Get.context!).colorScheme.onSecondaryContainer,
-                        width: 4,
+              child: SingleChildScrollView(
+                child: Column(
+                  // mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  // crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      // width: double.infinity,
+                      // height:  10000,
+                      margin: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                      padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                      decoration: BoxDecoration(
+                        color: Theme.of(Get.context!).colorScheme.secondaryContainer,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                          color: Theme.of(Get.context!).colorScheme.onSecondaryContainer,
+                          width: 4,
+                        ),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'bio_title'.tr,
+                            textAlign:TextAlign.left,
+                            style:  Theme.of(Get.context!).textTheme.titleSmall,
+                          ),
+                          Text(
+                            'bio'.tr,
+                            textAlign:TextAlign.left,
+                            style:  Theme.of(Get.context!).textTheme.bodySmall,
+                          ),
+                        ],
                       ),
                     ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'bio_title'.tr,
-                          textAlign:TextAlign.left,
-                          style:  Theme.of(Get.context!).textTheme.titleSmall,
-                        ),
-                        Text(
-                          'bio'.tr,
-                          textAlign:TextAlign.left,
-                          style:  Theme.of(Get.context!).textTheme.bodySmall,
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             SizedBox(width: 10,),
             Expanded(
-              child: Column(
-                // mainAxisAlignment: MainAxisAlignment.spaceAround,
-                // crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    // width: double.infinity,
-                    // height:  (screen.width / 6),
-                    margin: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
-                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
-                    decoration: BoxDecoration(
-                      color: Theme.of(Get.context!).colorScheme.primaryContainer,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(
-                        color: Theme.of(Get.context!).colorScheme.onPrimaryContainer,
-                        width: 4,
+              child: SingleChildScrollView(
+                child: Column(
+                  // mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  // crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      // width: double.infinity,
+                      // height:  (screen.width / 6),
+                      margin: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                      padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                      decoration: BoxDecoration(
+                        color: Theme.of(Get.context!).colorScheme.primaryContainer,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                          color: Theme.of(Get.context!).colorScheme.onPrimaryContainer,
+                          width: 4,
+                        ),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'text_1_title'.tr,
+                            textAlign:TextAlign.left,
+                            style:  Theme.of(Get.context!).textTheme.titleSmall,
+                          ),
+                          Text(
+                            'text_1'.tr,
+                            textAlign:TextAlign.left,
+                            style:  Theme.of(Get.context!).textTheme.bodySmall,
+                          ),
+                        ],
                       ),
                     ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'text_1_title'.tr,
-                          textAlign:TextAlign.left,
-                          style:  Theme.of(Get.context!).textTheme.titleSmall,
-                        ),
-                        Text(
-                          'text_1'.tr,
-                          textAlign:TextAlign.left,
-                          style:  Theme.of(Get.context!).textTheme.bodySmall,
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             SizedBox(width: 10,),
             Expanded(
-              child: Column(
-                // mainAxisAlignment: MainAxisAlignment.spaceAround,
-                // crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    // width: double.infinity,
-                    // height:  (screen.width / 6),
-                    margin: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
-                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
-                    decoration: BoxDecoration(
-                      color: Theme.of(Get.context!).colorScheme.tertiaryContainer,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(
-                        color: Theme.of(Get.context!).colorScheme.onTertiaryContainer,
-                        width: 4,
+              child: SingleChildScrollView(
+                child: Column(
+                  // mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  // crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      // width: double.infinity,
+                      // height:  (screen.width / 6),
+                      margin: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                      padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                      decoration: BoxDecoration(
+                        color: Theme.of(Get.context!).colorScheme.tertiaryContainer,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                          color: Theme.of(Get.context!).colorScheme.onTertiaryContainer,
+                          width: 4,
+                        ),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'text_2_title'.tr,
+                            textAlign:TextAlign.left,
+                            style:  Theme.of(Get.context!).textTheme.titleSmall,
+                          ),
+                          Text(
+                            'text_2'.tr,
+                            textAlign:TextAlign.left,
+                            style:  Theme.of(Get.context!).textTheme.bodySmall,
+                          ),
+                        ],
                       ),
                     ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'text_2_title'.tr,
-                          textAlign:TextAlign.left,
-                          style:  Theme.of(Get.context!).textTheme.titleSmall,
-                        ),
-                        Text(
-                          'text_2'.tr,
-                          textAlign:TextAlign.left,
-                          style:  Theme.of(Get.context!).textTheme.bodySmall,
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ],
